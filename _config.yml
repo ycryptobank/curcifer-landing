@@ -27,10 +27,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  curcifer
+copyright:    >
+  © Copyright 2022 [Curcifer Techies](https://curcifer.tech)
+repository:   curcifer/ct.github.io
 
 # Build settings
-theme: minima
+# theme: bulma-clean-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,3 +54,7 @@ theme: minima
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
