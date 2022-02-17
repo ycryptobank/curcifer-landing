@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-# gem "bulma-clean-theme"
+gem "monophase"
 
 gem "github-pages",  ">= 207", group: :jekyll_plugins
 # If you have any plugins, put them here!

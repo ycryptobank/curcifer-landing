@@ -21,19 +21,24 @@
 title: Curcifer Tech
 email: info@curcifer.tech
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi Curcifer Techies, welcome to Landing sites of Curcifer Tech
+  Please feel free to dive into the blogs and project.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
 github_username:  curcifer
 copyright:    >
   © Copyright 2022 [Curcifer Techies](https://curcifer.tech)
 repository:   curcifer/ct.github.io
 
+author.name: Curcifer Techies
+author.url: https://curcifer.tech
+
+plugins:
+  - jekyll-remote-theme
+remote_theme: nsnull0/monophase@main
+
 # Build settings
-# theme: bulma-clean-theme
+theme: monophase
 
 # Exclude from processing.
 # The following items will not be processed, by default.

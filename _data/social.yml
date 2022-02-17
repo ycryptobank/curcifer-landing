@@ -1,0 +1,6 @@
+- title: Email
+  url: mailto:info@curcifer.tech
+  icon: fas fa-envelope
+- title: GitHub
+  url: https://github.com/curcifer
+  icon: fab fa-github
