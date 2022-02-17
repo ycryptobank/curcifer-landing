@@ -285,7 +285,8 @@ PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
-  github-pages (>= 207)
+  github-pages (>= 223)
+  jekyll-remote-theme
   monophase
   tzinfo-data
   webrick (~> 1.7)
