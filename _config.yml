@@ -33,10 +33,6 @@ repository:   curcifer/ct.github.io
 author.name: Curcifer Techies
 author.url: https://curcifer.tech
 
-plugins:
-  - jekyll-remote-theme
-remote_theme: nsnull0/monophase@main
-
 # Build settings
 theme: monophase
 
