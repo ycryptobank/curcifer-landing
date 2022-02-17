@@ -34,10 +34,7 @@ author.name: Curcifer Techies
 author.url: https://curcifer.tech
 
 # Build settings
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: zivhub/monophase@main
+theme: monophase
 
 # Exclude from processing.
 # The following items will not be processed, by default.

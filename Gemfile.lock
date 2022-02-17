@@ -286,7 +286,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (>= 223)
-  jekyll-remote-theme
   monophase
   tzinfo-data
   webrick (~> 1.7)
