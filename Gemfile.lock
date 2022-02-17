@@ -231,12 +231,6 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.15.0)
-    monophase (0.1.0)
-      jekyll (~> 3.9)
-      jekyll-feed (~> 0.15)
-      jekyll-paginate (~> 1.1)
-      jekyll-seo-tag (~> 2.6)
-      kramdown-parser-gfm (~> 1.1)
     multipart-post (2.1.1)
     nokogiri (1.13.1-x86_64-darwin)
       racc (~> 1.4)
@@ -286,7 +280,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (>= 223)
-  monophase
+  jekyll-remote-theme
   tzinfo-data
   webrick (~> 1.7)
 

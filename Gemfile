@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-gem "monophase"
+gem "jekyll-remote-theme"
 
 gem "github-pages",  ">= 223", group: :jekyll_plugins
 # If you have any plugins, put them here!

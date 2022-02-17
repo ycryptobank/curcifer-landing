@@ -34,8 +34,10 @@ author.name: Curcifer Techies
 author.url: https://curcifer.tech
 
 # Build settings
-theme: monophase
+plugins:
+  - jekyll-remote-theme
 
+remote_theme: nsnull0/monophase@main
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
