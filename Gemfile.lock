@@ -280,7 +280,11 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (>= 223)
+  jekyll-feed (~> 0.15)
+  jekyll-paginate (~> 1.1)
   jekyll-remote-theme
+  jekyll-seo-tag (~> 2.7)
+  kramdown-parser-gfm (~> 1.1)
   tzinfo-data
   webrick (~> 1.7)
 

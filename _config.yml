@@ -29,9 +29,19 @@ github_username:  curcifer
 copyright:    >
   © Copyright 2022 [Curcifer Techies](https://curcifer.tech)
 repository:   curcifer/ct.github.io
+profile: true
 
-author.name: Curcifer Techies
-author.url: https://curcifer.tech
+sass:
+  sass_dir: _sass
+
+liquid:
+  error_mode        : warn
+  strict_filters    : false
+  strict_variables  : false
+
+collections:
+  posts:
+    output          : true
 
 # Build settings
 plugins:

@@ -1,10 +1,14 @@
 ---
-layout: page
-title: Techies Curcifer Tech
+layout: posts
+title: Techies of Curcifer Tech
+url: /post.html
 ---
 
-[Main Developer - YWS][developer-site]
+---
+[Level 0 Developer - YWS][developer-site]
 
-Just a normal developer who work 11 - 9 everyday...
+Just a normal developer who work 11 - 9 everyday 
 
 [developer-site]: https://yoseph.ws
+
+---
