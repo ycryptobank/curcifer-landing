@@ -5,6 +5,10 @@ author:     YWS
 date:       2022-02-19
 categories: Investments
 tags: 		Starcoin
+youtubeId: 	p7MjFW8KTEg
+youtubeWidth: 550
+youtubeHeight: 440
+youtubeAutoplay: 1
 ---
 
 Hello people, this chapter is not about coding or anything related to progamming. 
@@ -26,9 +30,4 @@ Disclaimer:
 
 always invest which you can afford to lose, don't ever your your daily funds.
 
-Please watch the detail on the videos below.
-![video-img](/assets/yt-starcoin.png)
-[link of video][youtube-url]
-
-
-[youtube-url]: https://youtu.be/p7MjFW8KTEg
+For more details can be seen at the video...
