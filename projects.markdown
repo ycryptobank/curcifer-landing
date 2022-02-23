@@ -13,6 +13,9 @@ Next will deploy playful lending yield contract on chain Polygon.
 
 Make sure to check your URL contain `.curcifer.tech`, this is the only domain on curcifer tech, other than that is scammer.
 
-[Polygon Bank][polygonyield-site]
+
+Here is the upcoming Projects:
+
+- [Polygon Bank][polygonyield-site] Play in world of defi in polygon blockchain.
 
 [polygonyield-site]: https://polygonyield.curcifer.tech
