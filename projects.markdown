@@ -16,6 +16,8 @@ Make sure to check your URL contain `.curcifer.tech`, this is the only domain on
 
 Here is the upcoming Projects:
 
-- [Polygon Bank][polygonyield-site] Play in world of defi in polygon blockchain.
+- [Curcifer Farm - Lending Borrowing Field][polygonyield-site] Play in world of defi in polygon blockchain.
+- [Personal DEX - Trade any crypto][personaldex-site] Trade any crypto with Special AMM or personal p2p.
 
 [polygonyield-site]: https://polygonyield.curcifer.tech
+[personaldex-site]: https://personaldex.curcifer.tech
