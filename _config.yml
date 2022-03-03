@@ -31,6 +31,10 @@ copyright:    >
 repository:   curcifer/ct.github.io
 profile: true
 
+author:
+  name: Curcifer Techies
+  url: https://twitter.com/curcifer
+
 sass:
   sass_dir: _sass
 

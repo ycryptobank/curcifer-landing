@@ -28,7 +28,7 @@ but this is NOT a FINANCIAL ADVICE
 if you are interested, please feel free to try and invest.
 
 
-If you like to buy starcoin, can you go [gate.io][gateio-site] (I recommend to finish your ekyc first before deposit to avoid any problem on withdrawal later).
+If you want to buy starcoin, this exchange support starcoin [gate.io][gateio-site] (I recommend to finish your ekyc first before deposit to avoid any problem on withdrawal later).
 
 if you like to support me, please use the my referral by click the link above.
 Thank you very much :)

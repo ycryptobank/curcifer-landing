@@ -1,7 +1,6 @@
 ---
-layout: posts
+layout: page
 title: Techies of Curcifer Tech
-url: /post.html
 ---
 
 ---
