@@ -6,6 +6,11 @@ date:       2022-02-10
 categories: learning jekyll
 tags: 		jekyll
 youtubeId:  ""
+description: "Hello people, I want to share a little bit about website build using github pages and jekyll.
+I am also new on jekyll static website, so please bear with me :)
+</br></br>
+To setup first website using github pages is pratically easy,
+let's do it step by step.<br/>"
 ---
 
 
