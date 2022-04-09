@@ -1,9 +1,6 @@
 ---
 layout: homes
 title: Curcifer Tech Media Related
-# posts: /posts.html
-# url: /post.html
-# paginate: 2
 ---
 
 
