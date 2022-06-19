@@ -1,0 +1,142 @@
+---
+layout:     post
+comments: 	true
+title:      Flux and Node
+author:     YWS
+date:       2022-06-19
+categories: Learning
+tags: 		Flux review passive invome
+youtubeId: 	rRqYvsHhOzI
+youtubeWidth: 550
+youtubeHeight: 440
+youtubeAutoplay: 1
+description: "Hello people, You will need to know about Flux soon or later.
+</br></br>
+In this chapter we are going to review Flux node Cumulus"
+---
+
+Hello people, You will need to know about Flux soon or later,
+
+It's been a while didn't post any news.
+
+Let me share with you how to earn extran income with Flux.
+
+Actually flux probably almost same like ethereum only it also has POS,
+so it actually can be mine also can be stake.
+
+The rewards is split between POW(mining part) and POS(staking part).
+
+let's just get started.
+
+## Flux Node Cumulus
+
+1. setup zelcore wallet
+2. rent VPS or if your home internet environment is strong enough to handle requirements below, then maybe a pi4 8gb device would be enough.
+<img src="/assets/June2022/flux-cumulus.png" width=152px height=208px />
+3. Setup VPS / device
+4. Maintenance
+
+### Setup Zelcore wallet
+1. you will need to buy or mine 1000 Flux to your [zelcore wallet][https://zelcore.io/]
+2. after you received 1000 flux on your wallet, try to send it again to your own address 1000 flux.
+3. it will automatically locked, it will be like this, refer to picture.
+<img src="/assets/June2022/locked_flux.png" width=163px height=135px />
+Now your zelcore app is ready to handle flux node.
+
+### Special for rapsberry pi4 8gb before start Setup Flux
+
+Skip this section if you are using VPS
+
+Install the linux 20.04 LTS
+after login type `sudo su -`
+do `apt-get uprade` and `reboot`
+
+If you use ssd or nvme.
+you need to first mount your SSD or nvme.
+I recommend you to use NVME extension on rapsberry as it is more stable and faster.
+
+so first you need to mount it, do this on your terminal(using linux or mac):
+1. `fdisk -l` to check your storage
+2. usually you will see your extension storage on here `dev/sda` depends on how many you have
+3. in this case, mine was at `dev/sda` so type `sudo parted /dev/sda`
+4. next command type `mklabel GPT` 
+5. next command type `mkpart primary 2048s 100%` 
+6. next command type `q` to quit
+7. type `mkfs.ext4 /dev/sda1`, about `/dev/sda1` name, it depends on your storage, you can check again `fdisk -l` to make sure.
+8. it will question yes or no. ofcourse select `y`
+9. try to create directory to mount your storage, like `mkdir flux-ssd`, you can mount it by `mount /dev/sda1 /flux-ssd`
+
+you will need to do this again if your device restart, so in order to auto-mount it, you need to edit `fstab` file.
+
+1. run `blkid /dev/sda1`
+2. copy the `UUID`
+3. run `vi /etc/fstab`
+4. go to last line and type `i` to write text there
+5. write like below
+`UUID=your-copied-uuid-previously		/flux-ssd		ext4		defaults,noatime		0 		2`
+6. after finish, type `esc` and `:wq` to write and quit 
+notes: you need to be root
+
+to test, you can try to reboot and check inside the folder again, if there is `lost+found` file, then congratulation, you already successfully auto-mount it.
+
+### Setup VPS / Device
+
+First you need to login or access your device.
+
+1. Go to [copy this magic script][magic-script] so you don't need to handle comman 1 by 1.
+2. copy the command `bash -i <(curl -s https://raw.githubusercontent.com/RunOnFlux/fluxnode-multitool/master/multitoolbox.sh)`
+3. choose number 1 to install docker, it doesn't matter if you already have docker, just run number 1.
+4. and run number 2
+For more details, you can see the [video][videos]
+5. You will be asked a few questions on the script, all the question answer is on your zelcore app, you can find it on your `FluxNode` section.
+6. your Zelcore ID located in `Apps`->`Zel ID`
+7. wait until all synchronized and benchmarked
+8. you will see your dedicated ip address with spesific port to access your flux node at the end of script
+9. copy the ip address and access it on web
+10. double check if benchmarks is finished, go to web and select section `Benchmark` and get benchmark status, it should displayed `CUMULUS`
+if not probably your device has not meet requirements for running node yet, please check again the requirements, or there are some cases that your node still on going benchmark.
+11. if you check all correctly and in zelcore app also `Status` is `CONFIRMED`, now you can hit the start `FluxNode` button to start your node.
+
+Congratulation!!, your node CUMULUS is successfully deployed and started to earn passive income.
+
+Notes:
+If you start node without check benchmark status, if it still on going to benchmarked or failed, you will get status `DOS`, which means you need to restart over again, by delete your node and lock flux 1000 again(repeat steps on `Setup Zelcore Wallet`)
+
+### Maintenance
+
+to become node operator, you will need to do this at least once a week.
+
+1. check in web gui, Flux Admin
+2. Update Flux if necessary
+3. Update Daemon if necessary
+
+if no notification or action needed then you are still good to go.
+
+
+## Conclusion
+
+So its very easy to setup flux node these days.
+previously it was very tedious to run spesific command 1 by 1.
+now we have already magic script :)
+
+My earning in 1 weeks was not so bad actually, it already trigger rewards for cumulus which is 5.6 Flux total.
+I think it depends on device, which mean if many CUMULUS node born, then your speed to earning would be slow.
+
+Alright, i hope this materials is usefull for you.
+I am sorry if there are things not clear, please do let me know, It is my pleasure to share this interesting passive income to all of you.
+
+And see you on the next chapter of curcifer tech channel techies.
+
+
+
+
+
+
+
+
+
+
+
+[wallet-zelcore]: https://zelcore.io/
+[magic-script]: https://github.com/RunOnFlux/fluxnode-multitool
+[videos]: https://youtu.be/rRqYvsHhOzI
