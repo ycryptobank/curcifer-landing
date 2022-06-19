@@ -37,7 +37,7 @@ let's just get started.
 4. Maintenance
 
 ### Setup Zelcore wallet
-1. you will need to buy or mine 1000 Flux to your [zelcore wallet][https://zelcore.io/]
+1. you will need to buy or mine 1000 Flux to your [zelcore wallet][wallet-zelcore]
 2. after you received 1000 flux on your wallet, try to send it again to your own address 1000 flux.
 3. it will automatically locked, it will be like this, refer to picture.
 <img src="/assets/June2022/locked_flux.png" width=163px height=135px />
@@ -73,9 +73,14 @@ you will need to do this again if your device restart, so in order to auto-mount
 3. run `vi /etc/fstab`
 4. go to last line and type `i` to write text there
 5. write like below
+
 `UUID=your-copied-uuid-previously		/flux-ssd		ext4		defaults,noatime		0 		2`
-6. after finish, type `esc` and `:wq` to write and quit 
-notes: you need to be root
+
+6. after finish, type `esc` and `:wq` to write and quit
+
+notes: 
+
+you need to be root
 
 to test, you can try to reboot and check inside the folder again, if there is `lost+found` file, then congratulation, you already successfully auto-mount it.
 
@@ -100,6 +105,7 @@ if not probably your device has not meet requirements for running node yet, plea
 Congratulation!!, your node CUMULUS is successfully deployed and started to earn passive income.
 
 Notes:
+
 If you start node without check benchmark status, if it still on going to benchmarked or failed, you will get status `DOS`, which means you need to restart over again, by delete your node and lock flux 1000 again(repeat steps on `Setup Zelcore Wallet`)
 
 ### Maintenance
