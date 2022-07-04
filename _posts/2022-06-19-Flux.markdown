@@ -119,6 +119,10 @@ to become node operator, you will need to do this at least once a week.
 if no notification or action needed then you are still good to go.
 
 
+# DISCLAIMER
+
+This is `not a financial advice` just purely a tutorial or a knowledge share. so if you decide to buy the asset of flux, please DYOR it first before invest.
+
 ## Conclusion
 
 So its very easy to setup flux node these days.
