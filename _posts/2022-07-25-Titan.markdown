@@ -1,0 +1,112 @@
+---
+layout:     post
+comments: 	true
+title:      Titan Node Stake
+author:     YWS
+date:       2022-07-25
+categories: Passive Income
+tags: 		Flux Titan Node passive invome
+youtubeId: 	_dRt2Mzoqro
+youtubeWidth: 550
+youtubeHeight: 440
+youtubeAutoplay: 1
+description: "Hello everyone, There is a new type of node which is really easy to participate.
+</br></br>
+In this chapter we are going to do Staking review in Titan shared Node"
+---
+
+Hello everyone, There is a new type of node which is really easy to participate.
+
+In this chapter we are going to do Staking review in Titan shared Node.
+
+<centre>
+<img src="/assets/July2022/titannode.png" width=560px height=266px/>
+</centre>
+
+It is very easy and no need technical knowledge to do participate on this activity.
+
+You just need to install zelcore app wallet and of-course the flux itself.
+
+how to buy / get flux easier using zelcore app exchange or by using centralized exchange such as [gate.io][gateio]
+<centre>
+<img src="/assets/July2022/gateio_poster.png" width=240px height=426px/>
+</centre>
+
+so let's get into it!
+
+## Install Zelcore App
+Go to [zelcore.io][wallet-zelcore] and download based on your platform.
+I suggest to use desktop or pc for easier to following up this post.
+Input your credential or create your wallet
+
+You will see several wallet on your zelcore app by default, you can choose whatever you like.
+let's say you choose investment wallet.
+add asset `FLUX` if it still not added yet.
+
+If you buy with zelcore app then `you can skip this` but if you buy from centralized exchange like [gate.io][gateio].
+go to the FLUX address
+<centre>
+<img src="/assets/July2022/zelcoreapp-1.png" width=360px height=135px/>
+<img src="/assets/July2022/zelcoreapp-2.png" width=360px height=200px/>
+</centre>
+send your bought FLux in gateio to this address.
+it will be very fast more or less 30minutes to 1 hour.
+
+## Staking to TITAN NODE
+
+Now that you already have flux.
+To stake to shared node titan node, you can go to the [runflux.io sites][runflux].
+Go to [FluxOS][fluxos] Tab on the sites.
+GO to shared FluxOS on the official sites
+<centre>
+<img src="/assets/July2022/fluxos-1.png" width=360px height=224px/>
+</centre>
+
+After you go there you need to sign in using your zelcore app to make it easier for you.
+
+<centre>
+<img src="/assets/July2022/fluxos-2.png" width=480px height=100px/>
+</centre>
+
+go to the marketplace section.
+
+<centre>
+<img src="/assets/July2022/fluxos-4.png" width=480px height=443px/>
+</centre>
+
+go to shared node section to stake your node.
+
+<centre>
+<img src="/assets/July2022/fluxos-3.png" width=480px height=187px/>
+</centre>
+
+And you just need to follow the guide step on the FluxOS, it is very user friendly.
+If you need more guide live, you can check the videos below for more detailed steps.
+
+## Conclusion
+
+It is much more convenient for non-technical people who just want to invest in flux.
+this passive income is better than hold it on your bank.
+
+For flexibility, I think using shared node is not flexible since you need to trust other people node to stake your node and lock your flux.
+if you prefer flexibility, you may better to check cumulus node or any flux node that required you to setup device.
+
+This Titan Node is very easy and fast to participate.
+no need to pay VPS service monthtly (if you use VPS).
+or you don't need to buy device to participate (if you use your own device to host node like in Cumulus node).
+
+So yeah, now you can choose variety node now in flux.
+Go try Titan Node if you interested.
+
+## Disclaimer
+
+This is just a review and tutorial, not financial advice. DYOR before invest.
+
+
+Alright, See you on the next chapter of curcifer tech.
+
+
+[wallet-zelcore]: https://zelcore.io/
+[gateio]: https://www.gate.io/signup/5735273
+[runflux]: https://runonflux.io/
+[fluxos]: https://runonflux.io/fluxos.html
