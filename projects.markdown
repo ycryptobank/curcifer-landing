@@ -3,19 +3,29 @@ layout: page
 title: Curcifer Tech Projects
 ---
 
-Will post a new projects or tutorial powered by Curcifer Tech.
-
 All of the project listed here which contain crypto element is high risk.
 
 Please try with your comfortable risk value.
 
-Next will deploy playful lending yield contract on chain Polygon.
+Make sure to check your URL is `curcifer-tech.whopfi.com`, this is the only domain on curcifer tech for checking informations about the project.
 
-Make sure to check your URL contain `.curcifer.tech`, this is the only domain on curcifer tech, other than that is scammer.
+`curcifer.tech` address is discontinued.
+
+## List Project
+### YCryptoBank - YCB ([URL][personaldex-site])
+Features
+- P2P OTC Trading 0 fee, subscription monthly base only ~1$
+- Trading Bots Yield, up to ~100% APY
+- Traditional Buy Crypto Token from 3rd party
+- Community token as utility, currently plan to utilized [Million Token][community-token]
 
 
-### There are upcoming projects with real use case, easy, and simple.
+Currently site still in development until it announced for official launch date.
+(becareful many scammer around, if you have question feel free to ask on twitter or email)
+
+
 ### Please stay tune ⌛
 
 [polygonyield-site]: https://polygonyield.curcifer.tech
-[personaldex-site]: https://personaldex.curcifer.tech
+[personaldex-site]: https://app.ycryptobank.com
+[community-token]: https://www.milliontoken.org/

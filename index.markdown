@@ -8,3 +8,7 @@ Welcome all techies of Curcifer Tech.
 Thank you for visiting the sites.
 
 Here is the Landing Sites of all Curcifer Tech Sites.
+
+Blogs, Medias, and Project List Informations, you can find it all in this sites.
+
+Enjoy!!
