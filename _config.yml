@@ -19,15 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Curcifer Tech
-email: info@curcifer.tech
+email: info@yoseph.ws
 description: >- # this means to ignore newlines until "baseurl:"
   Hi Curcifer Techies, welcome to Landing sites of Curcifer Tech
   Please feel free to dive into the blogs and project.
-github_username:  curcifer
+github_username: nsnull0
 copyright:    >
-  © Copyright 2022 [Curcifer Techies](https://curcifer.tech)
-repository:   curcifer/ct.github.io
-url: https://curcifer.tech//
+  © Copyright 2023 [Curcifer Techies](https://curcifer-tech.whopfi.com)
+repository: https://github.com/ycryptobank/whopfi-curcifer-landing
+url: https://curcifer-tech.whopfi.com/
 
 disqus: curcifer-tech
 
