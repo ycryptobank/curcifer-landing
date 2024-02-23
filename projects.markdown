@@ -14,10 +14,9 @@ Make sure to check your URL is `curcifer-tech.whopfi.com`, this is the only doma
 # List Project
 ## YCryptoBank - YCB ([URL][personaldex-site])
 Features
-- Decentralized Swap token.
-- Centralized Swap token.
-- Buy Token.
-- Passport Account security.
+- CSwap.
+- Passport Finance.
+- Token Sales.
 
 Already launched for first phase.
 Please go to [Landing Page][landingdex-site] for more Info schedule release and available features.
@@ -33,22 +32,8 @@ Eventho the feature still on development, we are open to accept new audit order 
 
 ---
 
-## Enigma Gold Standard - Golden standard product ([URL](egs))
-The main feature is to place affiliate link with review of many legit product IRA gold in the world.
-But since not many interested in gold IRA and I've been doing trading forex well.
-Currently shifting to alternative Trading Forex related.
-Features
-- Gold IRA product review
-- Forex Trading Signal Provider
-
-there will be more product in the future.
-
----
-
 ### Please stay tune ⌛
 
-[polygonyield-site]: https://polygonyield.curcifer.tech
 [personaldex-site]: https://app.ycryptobank.com
 [landingdex-site]: https://ycryptobank.com
 [whopfi]: https://whopfi.com
-[egs]: https://egoldstandard.com
